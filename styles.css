@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+	
+}
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product, .cart-item {
+    border: 1px solid #ccc;
+    margin: 15px;
+    padding: 20px;
+	width: calc(25% - 30px); /* 4个商品并排，每个商品宽度减去边距 */
+	box-sizing: border-box;
+	
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f8f8f8;
+}
